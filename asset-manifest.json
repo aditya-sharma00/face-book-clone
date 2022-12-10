@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/face-book-clone/static/css/main.64936260.css",
+    "main.js": "/face-book-clone/static/js/main.df044fc6.js",
+    "index.html": "/face-book-clone/index.html",
+    "main.64936260.css.map": "/face-book-clone/static/css/main.64936260.css.map",
+    "main.df044fc6.js.map": "/face-book-clone/static/js/main.df044fc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64936260.css",
+    "static/js/main.df044fc6.js"
+  ]
+}
