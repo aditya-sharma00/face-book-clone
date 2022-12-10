@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    outline: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    width: 100px;
+    background-color: aliceblue;
+    
+}
+form{
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    height: 270px;
+    padding: 50px 5px 20px 5px;
+    margin: 18vh 850px;
+    border-radius:7px ;
+    box-shadow: 5px 5px 6px -7px;
+}
+input[type='text']{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200,200);
+    width: 300px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align:left;
+    color:black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    margin-top: -25px;
+    
+}
+input[type='password']{
+    display: block;
+    background-color: white;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200,200);
+    width: 300px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align:left;
+    color:black;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    margin-top: 15px;
+}
+button[type=btn]{
+    width: 200px;
+    font-size: 14px;
+    background-color: hsl(110, 63%, 44%);
+    text-align: center;
+    border: none;
+    color:white;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button[type = submit]{
+    border: none;
+    background-color: #1877f2;
+    color:white;
+    margin: auto;
+    width: 350px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.f-pws{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: #1877f2;
+    margin-top: 10px;
+    padding-left: 80px; ;
+    font-family: "Segoe UI";
+    font-weight: 400;
+}
+.line{
+    border-top:1px solid #222 ;
+    opacity: 0.2;
+    margin-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sub-link h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sub-link h3{
+    margin-top: 25vh;
+    font-size: 13px;
 }
-
-.App-link {
-  color: #61dafb;
+.f-container{
+    font-size:xx-small;
+    width: 350px;
+    margin-left: -600px;
+    margin-top: -25vh;
+    font-family: "Segoe UI",Roboto,"San Francisco";
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.f-container img{
+    width: 250px;
+    
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 3px;
+    
 }
