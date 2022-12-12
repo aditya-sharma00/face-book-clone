@@ -1,6 +1,6 @@
 import React,{Component} from "react";
 import './App.css'
-import img from './image/fb2.jpeg'
+import img from './image/fb.png'
 import axios from 'axios'
 class App extends Component{
     constructor(){
